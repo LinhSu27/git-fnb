@@ -5,4 +5,3 @@ Git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/LinhSu27/git-fnb.git
 git push -u origin main
-abc
