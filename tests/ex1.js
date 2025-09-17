@@ -5,9 +5,9 @@ console.log(number);
 let name = 'my number';
 console.log(name);
 //khai báo 1 biến isEven với giá trị là sai 
-let isEven = 'false';
+let isEven = false;
 console.log(isEven);
 if (number % 2 == 0){
-    isEven='true';
+    isEven = true;
 }
     console.log(isEven);
