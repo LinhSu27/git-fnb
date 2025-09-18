@@ -1,3 +1,4 @@
+Bài 1 : 
 git init : Tạo thư mục .git trong thư mục hiện. Biến nó thành 1 Git repository. 
     Khởi tạo các vùng : Working Directory , Staging Area và Local Repository
 git add <file name> : Di chuyển thay đổi cụ thể từ Working Directory vào Staging Area
@@ -9,3 +10,19 @@ git commit -m"message" : Tạo snapshot của tất cả các thay đổi trong 
 
 
 
+Bài 2 : 
+Bước a: Tạo 3 file : file1 , file2, file3
+- 3 file được tạo trong Working Directory
+Bước b: git init 
+- Khởi tạo Git Repository
+- Tạo các vùng : Working Directory , Staging Area , Repository
+Bước c : git commit -m"init project"
+- Lệnh thất bại : Không thể commit vì Staging Area trống
+- Git sẽ báo lỗi: "nothing to commit"
+Bước d : git add file1 
+- file 1 được thêm vào Staging Area
+Bước e : git commit -m"add file1"
+- File1 được commit vào Repository
+Bước f : git add file 
+- Lệnh thất bại : Không có file nào tên file 
+- Git báo lỗi 
