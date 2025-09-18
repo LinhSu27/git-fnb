@@ -6,3 +6,6 @@ git add . : Di chuyển tất cả thay đổi trong Working Directory vào Stag
     gồm file mới , file đã sửa đổi
 git commit -m"message" : Tạo snapshot của tất cả các thay đổi trong Staging Area lưu 
     vào Local Repository với message mô tả .
+
+
+
