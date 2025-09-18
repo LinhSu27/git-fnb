@@ -1,4 +1,0 @@
-git init : Tạo thư mục hiện tại 
-git add <file name> : 
-git add . : add tất cả các file 
-git commit -m"message" : commit file 
