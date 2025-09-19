@@ -25,4 +25,4 @@ Bước e : git commit -m"add file1"
 - File1 được commit vào Repository
 Bước f : git add file 
 - Lệnh thất bại : Không có file nào tên file 
-- Git báo lỗi 
+- Git báo lỗi. 
