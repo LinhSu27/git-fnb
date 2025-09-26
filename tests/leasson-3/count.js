@@ -17,3 +17,12 @@ function calculateTax(amount, taxRate = 0.1){
     const discountAmount = (originalPrice * discountPercent) / 100;
     return originalPrice - discountAmount;
 }console.log(calculateDiscount(100,20));
+
+function calculateCompoundInterest(principal, rate, time, compound = 1) {
+    const amount = principal * Math.pow(1 + rate / compound, compound * time);
+    return parseFloat(amount.toFixed(2)); // Làm tròn đến 2 chữ số thập phân
+}console.log(calculateCompoundInterest(1000, 0.05, 2, 12));
+
+function formatCurrency(amount, currency = "VND") {
+    return amount.toLocaleString('en-US') + ' ' + currency;
+} console.log(formatCurrency(1234567, "VND"));
